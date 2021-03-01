@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="stylesheet" th:href="@{/css/style_login.css}">
+
+    <!-- Google fonts -->
+    <link th:href="@{/css/css.css}" rel="stylesheet">
+
+    <!-- Ionic icons -->
+    <link  th:href="@{/css/ionicons.min.css}" rel="stylesheet">
+
+    <!-- JavaScrip -->
+    <script src="/js/jquery-3.5.0.min.js" > </script>
+    <title>Sistema de Almacén</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div id="formLogin">
+                <div class="modal-dialog text-center">
+                    <div class="col-sm-8 main-section">
+                        <div class="modal-content">
+                            <div class="col-12 user-img">
+                                <img th:src="@{/img/gobierno_regional.jpg}" width="220px" height="220px" class="img-fluid log" alt="">
+                            </div>
+                       <!--     <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="user" id="txt-dni">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="contraseña" autocomplete="on" id="txt-contrasena">
+                                </div>
+                                <div class="form-group">
+                                    <a th:href="@{/menu}" ><button type="button" class="btn btn-primary" id="btn-iniciar-sesion" >Iniciar Sesión</button></a>
+                                </div>
+                            </form>-->
+                            <form class="form-signin" method="post" action="/index">
+                                <p>
+                                    <label for="username" class="sr-only">Usuario</label>
+                                    <input type="text" id="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
+                                </p>
+                                <p>
+                                    <label for="password" class="sr-only">Clave</label>
+                                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+                                </p>
+                                <input name="_csrf" type="hidden" value="4ae29893-f6cd-49d9-926d-d70ef3bae50f">
+                                <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+
+                            </form>
+                            <div class="col-12 forgot">
+                                <a href="">Recuperar Contraseña</a><br>
+                                <a th:href="@{/registro}" id="btn_CrearCuenta"> Registrarse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/js/popper.min.js}" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script th:src="@{/js/bootstrap.min.js}" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+<!--<script th:src="@{/js/login.js}"></script>-->
+</body>
+</html>

@@ -1,0 +1,144 @@
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+}
+
+.main-section{
+    margin: 0 auto;
+    /*margin-top: 25%;*/
+    padding: 0px;
+}
+
+#btn_CrearCuenta{
+    color:white;
+}
+
+#btn_CrearCuenta:hover{
+    text-decoration: underline;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: 0.95;
+    padding: 0 20px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.grupoForm input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f004";
+}
+
+.btnSesion{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color:white;
+}
+
+.log{
+    border-radius: 20em;
+}
+
+#formLogin{
+    background-color:#133e10;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    padding-top: 130px;
+    background-color: #133e10;
+}
+
+
+#fondo-oscuro{
+    position: fixed;
+    top:0;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#formulario_registro{
+    max-width: 800px;
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .formulario{
+        max-width: 600px;
+        max-height: 500px;
+        background-color: red;
+        padding: 5px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.xlo{
+
+    color:white;
+}
+
+xlo:hover{
+    color: white;
+    text-decoration: none;
+}
+
+label{
+    color: black;
+}
+
+#formulario_registro{
+    border-radius: 20px ;
+    background-color: rgb(151, 212, 176);
+}
+
+.formulario2{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.25rem;
+
+}
+

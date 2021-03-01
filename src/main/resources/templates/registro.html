@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head><meta charset="utf-8">
+    <title>Validar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Styles -->
+    <link  th:href="@{/css/styleRegistro.css}" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family:font-family:'Nunito', sans-serif;">
+<form style="font-family: 'Nunito', sans-serif;" action="#" method="post" th:action="@{/user/guardar}" th:object="@{}">
+    <center>
+        <div class="form-row" style="margin:auto;">
+            <div class="form-group col-md-6" style="margin:auto;">
+                <h1 style="color:#133e10 !important;">Formulario de registro</h1>
+                    <label style="font-size:18px;color:#133e10 !important;font-weight:600">Ingresar DNI : </label>
+                    <br>
+                    <input  onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))" maxlength="20" minlength="2" name="dni" required type="number" class="form-control">
+                <br><br>
+                    <label style="font-size:18px;color:#133e10 !important;font-weight:600">Ingresar Nombres : </label>
+                    <br>
+                    <input  onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))" maxlength="20" minlength="2" name="nombre" required type="text" class="form-control">
+                <br><br>
+                    <label style="font-size:18px;color:#133e10 !important;font-weight:600">Ingresar Apellidos : </label>
+                    <br>
+                    <input  onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))"  maxlength="20" minlength="2" name="apellido" required type="text" class="form-control">
+                <br><br>
+                    <label style="font-size:18px;color:#133e10 !important;font-weight:600">Ingresar Edad : </label>
+                    <br>
+                    <input  onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))" maxlength="20" minlength="2" name="edad" required type="number" class="form-control">
+                <br><br>
+                    <label style="font-size:18px;color:#133e10 !important;font-weight:600">Ingresar Contraseña : </label>
+                    <br>
+                    <input  onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))" maxlength="20" minlength="2" name="clave" required type="text" class="form-control">
+                <br><br>
+                    <label style="font-size:18px;color:#133e10 !important;font-weight:600">Ingresar Email : </label>
+                    <br>
+                    <input  name="email" required type="email" class="form-control">
+                <br><br>
+                    <label style="font-size:18px;color:#133e10 !important;font-weight:600">Crea una contraseña : </label>
+                    <br>
+                    <input name="contraseña" required type="password" class="form-control">
+                <br>
+                <br>
+                <button  id="btnRegistro" name="insertar" type="submit" class="btn btn-primary  btn-block" >Registrarse</button>
+            </div>
+        </div>
+    </center>
+</form>
+
+</body>
+</html>

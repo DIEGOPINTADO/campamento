@@ -1,0 +1,449 @@
+body{
+    background-image: url("/img/pechp.jpg") !important;
+    background-position:center center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+@media (min-width:260px) and (max-width:280px){
+    img{
+        width:230px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:220px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:150px;
+        height:30px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:280px) and (max-width:300px){
+    img{
+        width:250px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:250px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:150px;
+        height:30px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:300px) and (max-width:320px){
+    img{
+        width:270px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:260px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:180px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:320px) and (max-width:340px){
+    img{
+        width:290px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:15px;
+
+    }
+}
+@media (min-width:340px) and (max-width:360px){
+    img{
+        width:310px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:360px) and (max-width:380px){
+    img{
+        width:330px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:380px) and (max-width:400px){
+    img{
+        width:350px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:400px) and (max-width:420px){
+    img{
+        width:370px;
+    }
+    form{
+        margin-top:35%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+
+@media (min-width:420px) and (max-width:440px){
+    img{
+        width:390px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+
+@media (min-width:440px) and (max-width:460px){
+    img{
+        width:410px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:460px) and (max-width:560px){
+    img{
+        width:440px;
+    }
+    form{
+        margin-top:10%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:36px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:560px) and (max-width:760px){
+    img{
+        width:510px;
+    }
+    form{
+        margin-top:5%;
+    }
+    input{
+        width:280px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:200px;
+        height:35px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+
+@media (min-width:760px) and (max-width:1100px){
+    img{
+        width:510px;
+    }
+    form{
+        margin-top:3%;
+    }
+    input{
+        width:300px;
+        border-color:transparent;
+        height:30px;
+        border-radius:10px;
+        font-size:16px;
+    }
+    button{
+        background:#D12966;
+        width:270px;
+        height:30px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:16px;
+
+    }
+}
+@media (min-width:1100px) and (max-width:1300px){
+    img{
+        width:460px;
+    }
+    form{
+        margin-top:1%;
+    }
+    input{
+        width:320px;
+        border-color:transparent;
+        height:35px;
+        border-radius:10px;
+        font-size:18px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:40px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:18px;
+
+    }
+}
+
+@media (min-width:1300px) and (max-width:1500px){
+    img{
+        width:500px;
+    }
+    form{
+        margin-top:1%;
+    }
+
+    input{
+        width:320px;
+        border-color:transparent;
+        height:35px;
+        border-radius:10px;
+        font-size:18px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:40px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:18px;
+
+    }
+
+}
+
+@media (min-width:1500px) and (max-width:1700px){
+    img{
+        width:550px;
+    }
+    form{
+        margin-top:15%;
+    }
+    input{
+        width:340px;
+        border-color:transparent;
+        height:40px;
+        border-radius:10px;
+        font-size:18px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:40px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:18px;
+
+    }
+    option{
+        font-size:18px;
+    }
+}
+@media (min-width:1700px) and (max-width:3000px){
+    img{
+        width:650px;
+    }
+    form{
+        margin-top:6%;
+    }
+    input{
+        width:380px;
+        border-color:transparent;
+        height:44px;
+        border-radius:10px;
+        font-size:18px;
+    }
+    button{
+        background:#D12966;
+        width:210px;
+        height:44px;
+        border-color:transparent;
+        border-radius:10px;
+        color:white;
+        font-size:18px;
+
+    }
+    option{
+        font-size:18px;
+    }
+}
+
+#btnRegistro{
+    background-color: #133e10 !important;
+    color:white !important;
+}
